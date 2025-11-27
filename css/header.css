@@ -1,22 +1,26 @@
-header{
-    background-color: var(--background-tertiary-color);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    alignment-baseline: flex-start;
-    padding: 38px 48px;
+header {
+  background-color: var(--background-tertiary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  alignment-baseline: flex-start;
+  padding: 38px 48px;
 }
 
-.logo{
-    display: inline-block;
-    width: 68px;
-    height: 64px;
+.logo {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
 }
 
-.navegation-menu{
-    margin-top: 24px;
+.navegation-menu {
+  margin-top: 24px;
 }
 
-nav{
-    display: none;
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+}
+
+nav {
+  display: none;
 }
