@@ -1,5 +1,5 @@
 @font-face {
-  font-family:"Montserrat";
+  font-family: "Montserrat";
   src: url(../fontes/Montserrat-VariableFont_wght.ttf);
   font-style: normal;
   font-display: swap;
@@ -38,6 +38,6 @@ button {
   box-sizing: border-box;
 }
 
-body{
-    font-family: "Montserrat";
+body {
+  font-family: "Montserrat";
 }
