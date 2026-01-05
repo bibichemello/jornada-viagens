@@ -41,6 +41,7 @@
   }
   .destinations .item .img-item {
     height: 452px;
+    margin-bottom: 24px;
   }
 
   .destinations .item.tokyo .img-item {
